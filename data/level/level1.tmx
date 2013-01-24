@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="town tiles" tilewidth="16" tileheight="16">
+  <image source="../img/ztown.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="Special" tilewidth="16" tileheight="16">
+  <image source="../img/tileset_special.png"/>
+ </tileset>
+ <layer name="Background" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC82Y4U7CMBCA2xofRNEoiW/hkyBPAvNFxlCeg0USjT+MjyDyw8SX8C608TzWri23OZIvgY22H9fd3cbYKDUeABOl1J1lCnzp33Pfun38i44j9/szcJpbCusX40XXe1dhuB+NCWeq2v1SY5TqV8KxhYeKfb9k53x+vnWz/IAFsAQegEf7GanY/q5h/MZSC/hJX39n8P7cMtIyfl3l8iVwnZADffttYO7njPzw7U1KDaDsyBw8Jk37m0tKTXQ1B+tLn36xOe3qXCHoh9dDzXjSh3635i8SfjHXlDaH/XEX8LtRYb9VB34zMpbP7cbGxK+0c1TCfiXrP6H4hfzWdv1a2A/r+xWp701+MfnxAcfegK2gH9bzEYPW95T6klr/pGtwLjF+E9LL+P3ZEPwwR92rEPB7ZeOP3V9Xm1ZCfpyc/sb95qS+d+GX2j9oX1g2+EmT6kdjRrlX/mebVHAdHoNj/bom1o/2rT6J7b9tz2S5nAZ6niPGb6v3/epTMAd4L/RxYdr98Dfg/wja/G+Pa/JDL2P298MnA/TD4z+Kw5uMwBIAAA==
+  </data>
+ </layer>
+ <layer name="Decore 1" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OMQ4AEBREQVcVJ/lcnEKhoNFQzCSbbPlSAgAAbuTll2cVZzFW59rjlp1Y/o99APyjA57HM3zAEgAA
+  </data>
+ </layer>
+ <layer name="Decore 2" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ToQ0AIAwF0YLEsCMGwVZMiqkkAUUp3EtO95uKAABeluM8/KdZD1joRnd3fyOFc5vgS9FuVTUAADwbcjGJWMASAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WSwrAIAxEXfRmvf+duiq0xegkzWcQBwLS+nlJjNoah87jbWx6Mln5vj7OfNb09+LT/NP0R/lGft7tyvgh4yL2L1ofVXyoZvllrf9osZx/kecLuu6spnsMGXyab958aFwq+bTjmfgY4me5y7L4orUCX6UPmw/nsN5vWXy9+aW1R28pFj5pnijz4IuWNb+ZtgIfizbfP0m5vwCLK3x4wBIAAA==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="40" tilewidth="8" tileheight="8">
+ <properties>
+  <property name="EnemyGoal" value="28,16"/>
+  <property name="EnemySpawn" value="56,37"/>
+  <property name="PlayerSpawn" value="19,13"/>
+ </properties>
+ <tileset firstgid="1" name="Tileset" tilewidth="8" tileheight="8">
+  <image source="../img/tileset.png" width="256" height="128"/>
+ </tileset>
+ <layer name="Background" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC92YTW7bMBCFScBsVr1GgS56iBpwd+0d0lYJiqbH6MILHcTHyk0iwRz0eTwznKGp/i0elFgUpY9vfiiVlFJetKtHSd5zpXGdNY/nvHeMNrZUvRqkda53f7E03jsHmzTmX+SV4oHG3AnjdukybiL3/5mvf5vyWaM56VklFsk3b0xHnmM0l8X6I5/lYZHGlHS5bhQH/H7f8y95/PWuk7ZWJV3XKWKd8/UzYy2TYpyP9eavxLtV3BIfagbeW2O4JJ034q/F38przjozXopHjYv7KPW9nYN36/zFno8+zgorj9uevovcI+Mz6qnmK+41JF7uo9av+Pmt++86/9Nyw9fprCcH56oj4235qrEjJ8Z4EX7T6h3W9tZ6leol8Wp8NOcRxP21fPPUqzcgqXZw8frZ4sU5OS+dOxpCHyxfrXO0RyHet8BLTIfl7/eKDqnNy+sR5/Wwco/RX2l/uUvXccjrFfq7rzx0/KCIeGfgxdyk+/FYoDGYn6Q9zL83eHv6rhYDH5lavKtoPaXcxLzg9UpjlZi1/NXyWaoz0hpEeTGvLd6S7HileT9V0f+WvyMU4Z3zZf6id7SemE9b8ErvARqb9F6F+Xtw+Iu8nrqjKRLPVg7T/snzHYCup/jUajMJ9/G38kbqFWfxsknXYD+SerCWm5zX22e88vob/eZD+yDtnUza7/b4G10PjVfquR5/sX7zPqPVeez7I+K5h9dTm/i3rHW+qfZD9C/6LLfwZDhm9pvE25OzGTgnhe/Bwe3dF7bGZGPsiP4r8WrcLd4tYxl5KZ9OVdZ+iueeNO+f4m15P6pG0HcIlHU+wuuNcWv9STvjPppXEe8iY4vy9yidqkb5K/kZmQPfc0ftM2geYn1WeB9Z7PFY9MQnZ5euj8SixOH1lFg13hH+esbdwuLhfBa0dR+I+mv1z9a6SH6Sco7xWt701DRtTM+emNYLOYmvl3drf1vPoa0DXYe+Tos+L/paj/f1OAV4HwM52Vufe9YT8+FUfVy5HgRFeHu93YKXe31Kl/5+GcBrPbv1PuBhpj2t5Fvr2hN4S0LGb7/RX6+vvc9QGCf5a8Vz/s+0rsG9oRdddPrXgCUAAA==
+  </data>
+ </layer>
+ <layer name="Decoration below objects" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YXU7DMAyAyxUQ4ipMbKeAR8olEG9sB5nGEXiCFyTEJWAPvA96BCo0HmikTjJR8+fYaVL5k6JOqe3EtZ1kqSpBsLM19P946PrImORvA3Wnhv7t7gxyG0976nu+4acTzfuIY6dAj5epbgRhiIsjXvu+60RphO4xkHuyWQgYxs7JHai5K+b6S4VeDzPwG+PjS8xkMmJXUHyvEToqtpQ+3iBtzdwik2E14tgPBeVzKVDtR5j6hbySzCKeMwIbawIb1Dw63teF1tZHgOxJ1061vqbz+6trn1prQMOy7J+pzxPnhv5cznt6rR976IT8V6z7c4Fq36C/9Tfxj2ekngkff0P5dbxvtSeEe73i8HcI3TdsvBXUMY/lkMeuOCti/B6bvaecLZ+p4Lif4r7zglwixsot74U0zCPzMmVeU1PyeskBZt0Q3Dwx25c8HmaByGeMTiq452bbC2z3NLnc4Qj58gfs28y3gCUAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="60" height="40">
+  <properties>
+   <property name="EnemySpawn" value=""/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+VWW47DQAhr73/dHmC/KkWRAdtj8tFFqrLZARuGVz7v1+vzz34pSWJtyHa8DPYJv2qL4mVrIFErHW5Cvjiqj1e7pDxR//cY3Zpz6oDBZaTL0+QTM8fYWdf5n4y345gwu3tSeCobJb/TfZ2cTzrKLnP7O5FfdQ6pvVzhoOepJHNa9SnSUe23ROFDNcjWwqTH1j7bH068ylxm9Cc/Or9YDCVfyGcGX90h6Kybs2w+uxmOZiMbA8LqbJm6m2wm7u6ducvuvONEOpO4tYt8Y2YRW1eVfpXf1IzpRMlN9T+V7xTD5b0+kS/pu0UcHZeDe9K/jij13NkpfrB52oj37iszrxLiYCZmp8OBeNT9loqXsUlwqP1bzfgKa2PWM5Kce/dnFfvkS8qPbgec7tAKG/2NfLvjTHzseTWv0vF2O4j1bUOm3eD2W5XzyY9EPE/xdPeAztyacHWufihYyv24ulu1vVVH7i5N7yXWL1R71TvbM8geYTtxsDab+WX0XB1W2G+ALU4mv2wfq3OHtXO4T/J40vfXd5U3Jan+Vb5h2G8G5166eaeIe+9KfpOzv8J/WjcVr9sTbC+f7PDk99W2nPig9hLT27/2+wND4Qv6gCUAAA==
+  </data>
+ </layer>
+</map>

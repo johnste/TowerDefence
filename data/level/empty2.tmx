@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="40" tilewidth="8" tileheight="8">
+ <properties>
+  <property name="EnemyGoal" value="28,16"/>
+  <property name="EnemySpawn" value="56,37"/>
+  <property name="PlayerSpawn" value="19,13"/>
+ </properties>
+ <tileset firstgid="1" name="Tileset" tilewidth="8" tileheight="8">
+  <image source="../img/tileset.png" width="256" height="128"/>
+ </tileset>
+ <layer name="Background" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PsQ0AIRDAsKNg/5W/+RlACi7Sx3tm1iPtv9sfvLy8vLy8vN142/G2423H2463HW873na87Xjb8bbjbcfbjrcdb7sXvbcfTvcBFa8tooAlAAA=
+  </data>
+ </layer>
+ <layer name="Decoration below objects" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAHgMMYCaUYAlAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="60" height="40">
+  <properties>
+   <property name="EnemySpawn" value=""/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DMQ0AAAwDoM6/3Qqohv2Q0Euqqqqqqqqqqqrq+wB3Ry1lgCUAAA==
+  </data>
+ </layer>
+</map>
