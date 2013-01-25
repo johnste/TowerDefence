@@ -1,6 +1,0 @@
-forest
-build
-protect
-tame
-defend
-grow
